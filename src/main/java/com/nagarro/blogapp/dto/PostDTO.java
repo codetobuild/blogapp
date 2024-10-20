@@ -23,8 +23,6 @@ public class PostDTO {
 
     private String content;
 
-    private Stats stats;
-
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 }
