@@ -9,7 +9,8 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      connectionTimeout: 60000  # 60 seconds
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: false
